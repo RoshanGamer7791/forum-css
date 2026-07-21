@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --m: #8059ff;
+}
+
+body {
+    font-family: Poppins !important;
+}
+
+.button {
+    background-color: var(--m) !important;
+    outline: none !important;
+}
+
+.p-header, .p-nav {
+    background-color: var(--m);
+}
+
+a, .button-text, .button {
+    color: #ccc !important;
+}
+
+a:hover, .button-text:hover, .button:hover {
+    color: #fff !important;
+}
+
+.memberProfileBanner {
+    background-color: var(--m) !important;
+}
+
+dt {
+    color: white !important;
+}
+
+a[data-user-id="21374"] span {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #818cf8;
+}
+
+/* username styles */
+
+.username--style3 {
+    background: linear-gradient(90deg, #a78bfa, #6366f1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+.username--staff {
+    background: linear-gradient(90deg, #22d3ee, #6366f1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+.username--moderator {
+    background: linear-gradient(90deg, #34d399, #22d3ee);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    -webkit-text-stroke: 0px transparent;
+    text-shadow: none;
+    font-weight: 700;
+}
+
+.username--admin {
+    background: linear-gradient(90deg, #f5c518, #ef4444);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
